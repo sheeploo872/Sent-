@@ -1,0 +1,13 @@
+사용설명서에서 Ngrok 설치를 하시고 이 글을 읽어주세요.
+
+Ngrok를 실행 시키실때 터미널을 키시고 
+./ngrok tcp 자신의IP:자신이 원하는 포트(대부분 4444사용함)
+(자신의 IP = 127.0.0.1, 원하는 Port = 4444, 예> ./ngrok tcp 127.0.0.1:4444)
+
+LIQUID 프로그램에서 IP, Port는 Ngrok를 실행 시키시면 
+Forwarding tcp://x.tcp.ngrok.io:xxxx -> 자신의 IP:원하는 Port
+여기서 LIQUID에서는 IP는 x.tcp.ngrok.io 이고 Port는 xxxx입니다.(x는 임이의 숫자)
+
+
+
+***도움이 필요하시면 앙성현#6835로 친추 걸어주세요.***
